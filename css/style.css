@@ -1,0 +1,21 @@
+body {
+	background-color: lightgray;
+}
+
+.container{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#new-font{
+	font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+#img-portfolio:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#submit-button:hover {
+	opacity: 0.8;
+}
+
