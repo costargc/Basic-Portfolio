@@ -31,3 +31,13 @@ body {
 	height: 80px;
 }
 
+
+/* @media screen and (max-width: 1000px) and (min-width:570px) { */
+@media screen and (max-width: 400px){
+    body{
+		/* background: lightcyan!important; */
+		min-width:380px;
+    }
+}
+
+
