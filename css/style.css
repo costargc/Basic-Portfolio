@@ -19,3 +19,15 @@ body {
 	opacity: 0.8;
 }
 
+#navbar-background{
+	background-color: transparent!important;
+}
+
+.relative{
+	vertical-align: center;
+    position:relative;
+    background-color: #4aaaa5!important;;
+	width: 200px;
+	height: 80px;
+}
+
