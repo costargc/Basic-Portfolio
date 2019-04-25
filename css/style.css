@@ -32,12 +32,50 @@ body {
 }
 
 
+#init_row{
+	margin-top: 80px;
+}
+
+
 /* @media screen and (max-width: 1000px) and (min-width:570px) { */
-@media screen and (max-width: 400px){
+@media screen and (max-width: 900px){
     body{
 		/* background: lightcyan!important; */
-		min-width:380px;
-    }
+		min-width:380px!important;
+	}
+	.relative{
+		vertical-align: center;
+		position:relative;
+		background-color: #4aaaa5!important;
+		width: 100%;
+		height: 80px;
+	}
+
+	#init_row{
+		margin-top: 180px;
+	}
+
+	}
+
+
+
+#menunav:hover {
+	color: darkgray;
+	text-decoration: none;
+	min-width:380px;
+
 }
+
+#menunav {
+	color: gray;
+	text-decoration: none;
+	min-width:380px;
+}
+
+.menu#menunav {
+	border-right: solid .05px lightgray;
+}
+
+
 
 
